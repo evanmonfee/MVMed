@@ -1,27 +1,50 @@
-# MvwareProject
+
+# MVMed Project
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
-## Development server
+  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Details
 
-## Code scaffolding
+- Create a drug model (json database)
+- Create CRUD api end point with json-server (https://github.com/typicode/json-server)
+-  Consume the API with Angular App and create the UI for create, update and delete operations on the sample model.
+- List all drugs on the main dashboard page.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation & Run
 
-## Build
+**Dependencies:** 
+ `ng-bootstrap` via npm
+  `json-server` via npm
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+**To run**, hit in the angular CLI:
 
-## Running unit tests
+ 1. `npm install` 
+ 2. `ng serve --open` 
+ 3. Navigate to `json-mock` folder, and run `json-server --watch db.json`
+ 
+## Output Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**1. On Page Load - Fetch the list of drugs**
+![On Page Load](https://i.imgur.com/DLn6aaV.png)
 
-## Running end-to-end tests
+**2. Delete the Drug:** 
+Deleting Fentanyl: Step 1 (Select the drug to delete and confirm the same.)
+![enter image description here](https://i.imgur.com/Qiw1vE7.png)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Deleting Fentanyl: Step 2 (Deleted successfully.)
+![enter image description here](https://i.imgur.com/RRCSK91.png)
 
-## Further help
+**3. Adding a New Drug:** 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ Adding a New Drug: Step - 1 (Enter the drug details)
+![enter image description here](https://i.imgur.com/4WHyrwp.png)
+
+ Adding a New Drug: Step - 2 (Confirm the changes entered)
+![enter image description here](https://i.imgur.com/pgVS3Oh.png)
+
+ Adding a New Drug: Step - 1 (Saved Successfully)
+
+![enter image description here](https://i.imgur.com/IA41QW8.png)

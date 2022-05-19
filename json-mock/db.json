@@ -1,0 +1,52 @@
+{
+  "drugs": [
+    {
+      "name": "Acetyl Salicylic Acid",
+      "id": 1,
+      "form": "Tablets",
+      "strengths": "325mg, 350 mg",
+      "category": "Antipyretics",
+      "edit": false
+    },
+    {
+      "name": "Diclofenac",
+      "id": 2,
+      "form": "Tablets",
+      "strengths": "50 mg",
+      "category": "Antipyretics",
+      "edit": false
+    },
+    {
+      "name": "Ibuprofen",
+      "id": 3,
+      "form": "Tablets/ Syrup",
+      "strengths": "200 mg, 400 mg",
+      "category": "Antipyretics",
+      "edit": false
+    },
+    {
+      "name": "Paracetamol",
+      "id": 4,
+      "form": "Tablets/ Syrup",
+      "strengths": "250 mg, 500 mg",
+      "category": "Antipyretics",
+      "edit": false
+    },
+    {
+      "name": "Dexamethasone",
+      "id": 5,
+      "form": "Tablets",
+      "strengths": "0.5 mg",
+      "category": "Antiallergics",
+      "edit": false
+    },
+    {
+      "name": "Tramadol - MG",
+      "form": "Injection",
+      "strengths": "50 mg",
+      "category": "Analgesics",
+      "edit": false,
+      "id": 6
+    }
+  ]
+}
