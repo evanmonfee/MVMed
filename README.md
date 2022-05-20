@@ -45,6 +45,8 @@ Deleting Fentanyl: Step 2 (Deleted successfully.)
  Adding a New Drug: Step - 2 (Confirm the changes entered)
 ![enter image description here](https://i.imgur.com/pgVS3Oh.png)
 
- Adding a New Drug: Step - 1 (Saved Successfully)
+ Adding a New Drug: Step - 3 (Saved Successfully)
 
 ![enter image description here](https://i.imgur.com/IA41QW8.png)
+
+Data source taken from: https://pharmaceuticals.gov.in/sites/default/files/NLEM.pdf
